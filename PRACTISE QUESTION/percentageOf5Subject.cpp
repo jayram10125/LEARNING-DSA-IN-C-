@@ -12,7 +12,7 @@ int main(){
     cin>>m4;
     cout<<"enter the marks of 5th subject : ";
     cin>>m5;
-    float avg;
-    avg=(m1+m2+m3+m4+m5)/5.0;
-    cout<<"average of 5 subject is : "<<avg;
+    float percentage;
+    percentage=((m1+m2+m3+m4+m5)*100)/500.0;
+    cout<<"percentage of 5 subject is : "<<percentage<<"%";
 }
