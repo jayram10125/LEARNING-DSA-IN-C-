@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 float a = 5, b = 2; 
 int c; 
-c=a%b;  // it should be 2 but dont know why getting an error
+c=a%b;  // will give an error because we dont calculate the reminder of floating point number
 cout<<c;
 return 0;
 }
