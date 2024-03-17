@@ -12,7 +12,12 @@ void  count(int n)
         Count++;
     }
     cout<<"the number of digit is : "<<Count<<endl;
+    cout<<"square of the number of digit is : "<<Count*Count<<endl;
        
+}
+int square(int n)
+{
+    return n*n;
 }
 int main()
 {
@@ -20,6 +25,7 @@ int main()
     cout<<"enter a number : ";
     cin>>n;
     count(n);
+    cout<<"square of the enterd number is :" <<square(n);
     
 
     return 0;
