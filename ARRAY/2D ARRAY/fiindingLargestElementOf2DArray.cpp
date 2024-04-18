@@ -12,7 +12,7 @@ int main()
      cout<<"elements "<<r*c<<" of array : \n";
     for(int i=0;i<r;i++)
     {
-        for(int j=0;j<r;j++)
+        for(int j=0;j<c;j++)
         {
             cin>>arr[i][j];
         }
@@ -20,7 +20,7 @@ int main()
     cout<<"the elements of array :\n";
     for(int i=0;i<r;i++)
     {
-        for(int j=0;j<r;j++)
+        for(int j=0;j<c;j++)
         {
             cout<<arr[i][j]<<" ";
         }
@@ -29,7 +29,7 @@ int main()
     max=arr[0][0];
     for(int i=0;i<r;i++)
     {
-        for(int j=0;j<r;j++)
+        for(int j=0;j<c;j++)
         {
             if(max<arr[i][j])
             {
