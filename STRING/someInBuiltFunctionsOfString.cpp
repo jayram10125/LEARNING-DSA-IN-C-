@@ -33,8 +33,9 @@ int main()
     //push_back()
      
      string abc="ram";
-     char ch='u';
-     abc.push_back(ch);
+     //char ch='u';
+     //abc.push_back('u');
+     abc.push_back('u');
      cout<<abc<<endl;
 
      //size()
