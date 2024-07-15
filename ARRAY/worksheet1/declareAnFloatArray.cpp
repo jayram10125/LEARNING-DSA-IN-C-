@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    float arr[5]={1.2 , 7.6 ,8.6 ,3.5 ,8.4};
+    float arr[5];
 
 
     return 0;
