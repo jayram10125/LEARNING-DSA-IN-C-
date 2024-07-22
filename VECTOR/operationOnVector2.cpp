@@ -4,7 +4,12 @@ using namespace std;
 int main()
 {
     vector<int> v(5);// vector<int> v(5)={1,5,6,7,8};  (aaise declare nahi kar sakte hai)
-    //v={1,5,6,7,8};
+    // v={1,5,6,7,8};
+    // for(int i=0;i<v.size();i++)
+    // {
+    //     cout<<v[i];
+    // }
+    cout<<endl;
     cout<<"size is : "<< v.size()<<endl;
     cout<<"enter the"<<v.size()<<" elements ";
     for(int i=0;i<v.size();i++)
